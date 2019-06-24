@@ -5,4 +5,5 @@ class StudioUser < ApplicationRecord
 	has_many :bookings
 	has_many :reviews, as: :reviewable
 	has_many :payments
+  has_one :studio_stat
 end
