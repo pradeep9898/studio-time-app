@@ -5,6 +5,7 @@ class CreatePayments < ActiveRecord::Migration[5.1]
     	t.string :last_name
     	t.string :dob
     	t.integer :country_id
+      t.string :payment_type
       t.timestamps
     end
   end

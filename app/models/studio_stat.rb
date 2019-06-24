@@ -1,0 +1,2 @@
+class StudioStat < ApplicationRecord
+end
